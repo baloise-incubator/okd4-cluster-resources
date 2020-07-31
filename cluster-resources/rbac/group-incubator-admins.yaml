@@ -1,7 +1,7 @@
 apiVersion: user.openshift.io/v1
 kind: Group
 metadata:
-  name: incubator-admins
+  name: cluster-admins
 users:
   - niiku
   - CookieMonster70
