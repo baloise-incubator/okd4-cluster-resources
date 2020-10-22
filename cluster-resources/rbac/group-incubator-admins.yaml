@@ -15,4 +15,4 @@ users:
   - yannickholzenkamp
   - mikevader
   - tiliavir
-  - kube:admin
+  - "kube:admin"
