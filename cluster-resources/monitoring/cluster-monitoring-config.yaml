@@ -1,11 +1,10 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: cluster-monitoring-config
+  name: cluster-monitoring-config-bak
   namespace: openshift-monitoring
 data:
-  config.yaml: 
-  config.yaml.bak: |
+  config.yaml: |
     prometheusK8s:
       volumeClaimTemplate:
         metadata:
