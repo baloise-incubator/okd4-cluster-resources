@@ -9,3 +9,5 @@ spec:
     - hostname: console.baloise.dev
       name: console
       namespace: openshift-console
+      servingCertKeyPairSecret:
+        name: master-apiserver-tls
