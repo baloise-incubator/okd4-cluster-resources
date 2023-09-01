@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: cluster
 spec:
-  domain: apps.okd.baloise.dev
+  domain: apps.incubator.baloise.dev
   appsDomain: apps.baloise.dev
   componentRoutes:
     - hostname: console.baloise.dev
